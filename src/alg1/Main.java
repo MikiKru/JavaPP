@@ -6,13 +6,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Podaj podstawę potęgi");
-        int x = scanner.nextInt();
-        System.out.println("Podaj wykładnik potęgi");
-        int y = scanner.nextInt();
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Podaj podstawę potęgi");
+//        int x = scanner.nextInt();
+//        System.out.println("Podaj wykładnik potęgi");
+//        int y = scanner.nextInt();
 
+        // P1
         Algorithms1 a = new Algorithms1();
-        System.out.println(x + "^"+y+"="+a.power(x,y));
+//        System.out.println(x + "^"+y+"="+a.power(x,y));
+        // P2
+        System.out.println(a.factorial(5));
+        System.out.println(a.factorial(-5));
     }
 }
