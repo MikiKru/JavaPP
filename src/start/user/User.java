@@ -1,6 +1,7 @@
 package start.user;
 
 import java.util.Date;
+// ALT + Ins -> auto-generacja
 
 public class User {
     private String login;
@@ -8,6 +9,26 @@ public class User {
     private double salary;
     private boolean activity;
     private Date empl_date;
+
+    public User() { }
+    public User(String login, String password, double salary, boolean activity, Date empl_date) {
+        this.login = login;
+        this.password = password;
+        this.salary = salary;
+        this.activity = activity;
+        this.empl_date = empl_date;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "login='" + login + '\'' +
+                ", password='" + password + '\'' +
+                ", salary=" + salary +
+                ", activity=" + activity +
+                ", empl_date=" + empl_date +
+                '}';
+    }
 
     public String getLogin() {
         return login;

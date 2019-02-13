@@ -14,5 +14,16 @@ public class Main {
 //        user1.login;
         user1.setLogin("michal");
         System.out.println(user1.getLogin());
+        System.out.println(user1);
+
+        User user2 = new User(
+                "tiger",
+                "qwe321",
+                10000.50,
+                true,
+                new Date(2000,01,04));
+
+        System.out.println(user2);
     }
+
 }
