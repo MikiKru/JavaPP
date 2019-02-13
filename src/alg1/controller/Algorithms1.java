@@ -18,5 +18,11 @@ public class Algorithms1 {
         }
         return result;
     }
-
+    public int geoSequence(int a0, int q, int n) {
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            sum = sum + a0*power(q,i);
+        }
+        return sum;
+    }
 }
