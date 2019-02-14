@@ -15,13 +15,15 @@ public class Controller {
     }
     public int binaryToDecimal(String binary){
         int result = 0;
-        int power = 0;
         for(int i = binary.length()-1; i >= 0; i--){
             if((char)binary.charAt(i) == '1'){
-                result += pow(2,power);
+                result += pow(2,(binary.length()-1)-i);
             }
-            power++;
         }
+        // result = "100"
+        // I i= 2 , result = 0
+        // II i = 1, result = 0
+        // III i = 0, result = 0 + 2^(2-0) = 4
         return result;
     }
 }
