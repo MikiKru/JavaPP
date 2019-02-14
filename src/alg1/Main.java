@@ -2,6 +2,7 @@ package alg1;
 
 import alg1.controller.Algorithms1;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -21,6 +22,24 @@ public class Main {
         // P3
         System.out.println(a.geoSequence(2,3,3));
         // P4
-        System.out.println(a.arSequence(1,1,3));
+        Scanner scanner = new Scanner(System.in);
+        while(true) {
+            System.out.println("Wprowadź kolejno a, r, n");
+            try {
+                System.out.println(
+                        a.arSequence(
+                                scanner.nextInt(),
+                                scanner.nextInt(),
+                                scanner.nextInt()
+                        )
+                );
+                break;
+            } catch (InputMismatchException e) {
+                System.out.println("Błąd danych");
+            } finally {
+                scanner.nextLine();
+            }
+        }
+
     }
 }

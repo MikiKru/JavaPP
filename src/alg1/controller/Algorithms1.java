@@ -29,6 +29,7 @@ public class Algorithms1 {
         int sum = 0;
         for(int i = 1; i <= n; i++){
             sum += (a1+(i-1)*r);
+//            System.out.println(sum);
         }
         return sum;
     }
