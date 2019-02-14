@@ -20,5 +20,7 @@ public class Main {
         System.out.println(a.factorial(-5));
         // P3
         System.out.println(a.geoSequence(2,3,3));
+        // P4
+        System.out.println(a.arSequence(1,1,3));
     }
 }

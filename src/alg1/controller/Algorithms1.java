@@ -25,4 +25,11 @@ public class Algorithms1 {
         }
         return sum;
     }
+    public int arSequence(int a1, int r, int n) {
+        int sum = 0;
+        for(int i = 1; i <= n; i++){
+            sum += (a1+(i-1)*r);
+        }
+        return sum;
+    }
 }
