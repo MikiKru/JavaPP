@@ -18,18 +18,17 @@ public class User {
     }
     @Override
     public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", lastame='" + lastame + '\'' +
-                ", email='" + email + '\'' +
-                ", phone='" + phone + '\'' +
-                ", login='" + login + '\'' +
-                ", password='" + password + '\'' +
-                ", permission='" + permission + '\'' +
-                ", reg_date=" + reg_date +
-                ", activity=" + activity +
-                '}';
+        return  "================================="+
+                "\nid=" + id +
+                "\nname='" + name + '\'' +
+                "\nlastame='" + lastame + '\'' +
+                "\nemail='" + email + '\'' +
+                "\nphone='" + phone + '\'' +
+                "\nlogin='" + login + '\'' +
+                "\npassword='" + password + '\'' +
+                "\npermission='" + permission + '\'' +
+                "\nreg_date=" + reg_date +
+                "\nactivity=" + activity;
     }
 
     public int getId() {
