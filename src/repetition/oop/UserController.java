@@ -37,5 +37,13 @@ public class UserController {
             System.out.println(users_table[i]);
         }
     }
+    public String getUserByLogin(String login_search){
+        for(int i = 0; i < index; i++){
+            if(users_table[i].getLogin().equals(login_search)){
+                return users_table[i].toString();
+            }
+        }
+        return "Brak wyników";
+    }
 
 }

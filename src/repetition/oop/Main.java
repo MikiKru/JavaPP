@@ -12,5 +12,7 @@ public class Main {
                 "an","an");
         // wywołanie metody zwracającej wszystkich użytkowników
         uc.getAllUsers();
+        System.out.println(uc.getUserByLogin("mk"));
+        System.out.println(uc.getUserByLogin("akk"));
     }
 }
