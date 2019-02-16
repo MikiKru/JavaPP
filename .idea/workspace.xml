@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c6ecee2-7c9d-4f15-90fd-f9223cb1337d" name="Default Changelist" comment="" />
+    <list default="true" id="4c6ecee2-7c9d-4f15-90fd-f9223cb1337d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/repetition/oop/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repetition/oop/User.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/repetition/oop/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            <state relative-caret-position="375">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="e#546#547#0" expanded="true" />
                 <element signature="e#571#572#0" expanded="true" />
@@ -175,7 +177,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550310338861" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550311238977" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -280,12 +282,12 @@
       <updated>1550061937699</updated>
       <workItem from="1550061940377" duration="26963000" />
       <workItem from="1550218185918" duration="21000" />
-      <workItem from="1550302211992" duration="7285000" />
+      <workItem from="1550302211992" duration="7591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34269000" />
+    <option name="totallyTimeSpent" value="34575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -357,17 +359,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="236" column="5" lean-forward="true" selection-start-line="234" selection-start-column="4" selection-end-line="236" selection-end-column="5" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/start/user/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -510,10 +501,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/repetition/oop/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="375">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="e#546#547#0" expanded="true" />
             <element signature="e#571#572#0" expanded="true" />
