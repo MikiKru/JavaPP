@@ -12,15 +12,22 @@ public class UserController {
                         String login,
                         String password){
         User u = new User(
-                "Michał",
-                "Kruczkowski",
-                "mk@mk.pl",
-                "123456654",
-                "mk",
-                "mk");
+                name,
+                lastame,
+                email,
+                phone,
+                login,
+                password);
         users_table[index] = u;
         index++;
         System.out.println("Pomyślnie zarejestrowano: \n"+u);
+    }
+    // wypisania wszystków użytkowników
+    public void getAllUsers(){
+        System.out.println("LISTA UŻYTKOWNIKÓW");
+        for(int i = 0; i < index; i++){
+            System.out.println(users_table[i]);
+        }
     }
 
 }
