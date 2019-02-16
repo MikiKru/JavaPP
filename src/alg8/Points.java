@@ -1,7 +1,7 @@
 package alg8;
 
 // sqrt(pow(x2 - x1,2) + pow(y2 - y1,2) + pow(z2 - z1,2))
-
+// kalsa modelu danych
 public class Points {
     private int x,y,z;
 
