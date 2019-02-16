@@ -1,0 +1,30 @@
+package repetition;
+
+public class StringClass {
+    public static void main(String[] args) {
+        String sentence = "Used to restrict the output depending on the conversion";
+        // podział napisu względem ustalonego separatora
+        String [] words = sentence.split(" ");
+        // wypisanie elementów tablicy
+        // foreach - typ_komórki nazwa_pomocnicza_obiektu : sekwencja
+        for(String word : words){
+            // operacje podniwsienia liter do wielkich i odczytu długości napisu
+            System.out.printf("%10s %10s %5d \n", word, word.toUpperCase(), word.length());
+        }
+        // wyszukiwanie znaku na ostatniej pozycji
+        // wyszukaj słowa, które kończą się na E
+        System.out.println("Słowa kończące się na e");
+        for(String word : words){
+            if(word.toUpperCase().endsWith("E")) {
+                System.out.println(word);
+            }
+        }
+        System.out.println("Słowa z przedostatnim znakiem = \"O\"");
+        for(String word : words){
+            if(word.toUpperCase().charAt(word.length()-2) == 'O') {
+                System.out.println(word);
+            }
+        }
+
+    }
+}

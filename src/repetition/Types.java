@@ -1,5 +1,7 @@
 package repetition;
 
+import java.math.BigInteger;
+
 public class Types {
     public static void main(String[] args) {
         // typy proste
@@ -25,7 +27,17 @@ public class Types {
         System.out.println(flag + 10);
         System.out.println((char)(flag + 10));
 
+        String bigNum1 = "333333333333333333333";
+        String bigNum2 = "22222222222222222222222";
+        // Klasa wielkich liczb implementująca operatory matematyczne
+        BigInteger bi1 = new BigInteger(bigNum1);
+        BigInteger bi2 = new BigInteger(bigNum2);
+//        System.out.println(bigNum1 + bigNum2);
 
+        System.out.println(bi1.add(bi2));
+        System.out.println(bi1.subtract(bi2));
+        System.out.println(bi1.multiply(bi2));
+        System.out.println(bi1.divide(bi2));
 
     }
 }
