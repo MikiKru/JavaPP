@@ -1,5 +1,7 @@
 package repetition;
 
+import java.util.Scanner;
+
 public class StringClass {
     public static void main(String[] args) {
         String sentence = "Used to restrict the output depending on the conversion";
@@ -25,6 +27,26 @@ public class StringClass {
                 System.out.println(word);
             }
         }
+        String login;
+        String password;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Podaj login i hasło");
+        login = sc.nextLine();
+        password = sc.nextLine();
+
+        String permission = null;
+        if(login.equals("admin") && password.equals("admin")){
+            permission = "ROLE_ADMIN";
+            System.out.printf("login:%s | password:%s | permission:%s", login,password,permission);
+        } else if(login.equals("user") && password.equals("user")){
+            permission = "ROLE_USER";
+            System.out.printf("login:%s | password:%s | permission:%s", login,password,permission);
+        } else{
+            System.out.println("Błąd logowania!");
+        }
+
+
+
 
     }
 }
