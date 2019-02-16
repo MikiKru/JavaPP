@@ -1,5 +1,7 @@
 package repetition.oop;
 
+import java.time.LocalDate;
+
 public class UserController {
     // deklaracja tablicy użytkowników
     User users_table [] = new User[100];
@@ -18,7 +20,13 @@ public class UserController {
                 phone,
                 login,
                 password);
+        // modyfikacja pól obiektu
+        u.setPermission("ROLE_USER");
+        u.setId(index+1);
+        u.setActivity(true);
+        u.setReg_date(LocalDate.now());
         users_table[index] = u;
+        // -------------------------
         index++;
         System.out.println("Pomyślnie zarejestrowano: \n"+u);
     }
