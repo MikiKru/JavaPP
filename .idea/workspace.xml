@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c6ecee2-7c9d-4f15-90fd-f9223cb1337d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/repetition/oop/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repetition/oop/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repetition/oop/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repetition/oop/UserController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,77 +12,94 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/repetition/oop/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/repetition/oop/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
-                <element signature="e#1012#1013#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1078#1079#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
-                <element signature="e#1148#1149#0" expanded="true" />
-                <element signature="e#1182#1183#0" expanded="true" />
-                <element signature="e#1214#1215#0" expanded="true" />
-                <element signature="e#1242#1243#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
-                <element signature="e#1318#1319#0" expanded="true" />
-                <element signature="e#1353#1354#0" expanded="true" />
-                <element signature="e#1384#1385#0" expanded="true" />
-                <element signature="e#1432#1433#0" expanded="true" />
-                <element signature="e#1472#1473#0" expanded="true" />
-                <element signature="e#1509#1510#0" expanded="true" />
-                <element signature="e#1542#1543#0" expanded="true" />
-                <element signature="e#1594#1595#0" expanded="true" />
-                <element signature="e#1638#1639#0" expanded="true" />
-                <element signature="e#1676#1677#0" expanded="true" />
-                <element signature="e#1707#1708#0" expanded="true" />
-                <element signature="e#1758#1759#0" expanded="true" />
-                <element signature="e#1798#1799#0" expanded="true" />
-                <element signature="e#1833#1834#0" expanded="true" />
-                <element signature="e#1864#1865#0" expanded="true" />
-                <element signature="e#1913#1914#0" expanded="true" />
-                <element signature="e#1953#1954#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/repetition/oop/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.51208055">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/repetition/oop/Main.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="50">
+                  <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/repetition/oop/User.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="175">
+                  <caret line="10" column="102" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="102" />
+                  <folding>
+                    <element signature="e#546#547#0" expanded="true" />
+                    <element signature="e#571#572#0" expanded="true" />
+                    <element signature="e#604#605#0" expanded="true" />
+                    <element signature="e#632#633#0" expanded="true" />
+                    <element signature="e#663#664#0" expanded="true" />
+                    <element signature="e#690#691#0" expanded="true" />
+                    <element signature="e#730#731#0" expanded="true" />
+                    <element signature="e#762#763#0" expanded="true" />
+                    <element signature="e#796#797#0" expanded="true" />
+                    <element signature="e#826#827#0" expanded="true" />
+                    <element signature="e#872#873#0" expanded="true" />
+                    <element signature="e#910#911#0" expanded="true" />
+                    <element signature="e#942#943#0" expanded="true" />
+                    <element signature="e#970#971#0" expanded="true" />
+                    <element signature="e#1012#1013#0" expanded="true" />
+                    <element signature="e#1046#1047#0" expanded="true" />
+                    <element signature="e#1078#1079#0" expanded="true" />
+                    <element signature="e#1106#1107#0" expanded="true" />
+                    <element signature="e#1148#1149#0" expanded="true" />
+                    <element signature="e#1182#1183#0" expanded="true" />
+                    <element signature="e#1214#1215#0" expanded="true" />
+                    <element signature="e#1242#1243#0" expanded="true" />
+                    <element signature="e#1284#1285#0" expanded="true" />
+                    <element signature="e#1318#1319#0" expanded="true" />
+                    <element signature="e#1353#1354#0" expanded="true" />
+                    <element signature="e#1384#1385#0" expanded="true" />
+                    <element signature="e#1432#1433#0" expanded="true" />
+                    <element signature="e#1472#1473#0" expanded="true" />
+                    <element signature="e#1509#1510#0" expanded="true" />
+                    <element signature="e#1542#1543#0" expanded="true" />
+                    <element signature="e#1594#1595#0" expanded="true" />
+                    <element signature="e#1638#1639#0" expanded="true" />
+                    <element signature="e#1676#1677#0" expanded="true" />
+                    <element signature="e#1707#1708#0" expanded="true" />
+                    <element signature="e#1758#1759#0" expanded="true" />
+                    <element signature="e#1798#1799#0" expanded="true" />
+                    <element signature="e#1833#1834#0" expanded="true" />
+                    <element signature="e#1864#1865#0" expanded="true" />
+                    <element signature="e#1913#1914#0" expanded="true" />
+                    <element signature="e#1953#1954#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/repetition/oop/UserController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="50">
+                  <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/repetition/oop/UserController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="550">
+                  <caret line="22" selection-start-line="22" selection-end-line="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/repetition/StringClass.java" />
         <option value="$PROJECT_DIR$/src/repetition/oop/JavaOOP.java" />
         <option value="$PROJECT_DIR$/src/repetition/oop/User.java" />
+        <option value="$PROJECT_DIR$/src/repetition/oop/UserController.java" />
       </list>
     </option>
   </component>
@@ -177,7 +195,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550311238977" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550313289389" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -282,12 +300,12 @@
       <updated>1550061937699</updated>
       <workItem from="1550061940377" duration="26963000" />
       <workItem from="1550218185918" duration="21000" />
-      <workItem from="1550302211992" duration="7591000" />
+      <workItem from="1550302211992" duration="9501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34575000" />
+    <option name="totallyTimeSpent" value="36485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -494,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/repetition/oop/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -514,8 +525,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/repetition/oop/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="175">
+          <caret line="10" column="102" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="102" />
           <folding>
             <element signature="e#546#547#0" expanded="true" />
             <element signature="e#571#572#0" expanded="true" />
@@ -558,6 +569,13 @@
             <element signature="e#1913#1914#0" expanded="true" />
             <element signature="e#1953#1954#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/repetition/oop/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
